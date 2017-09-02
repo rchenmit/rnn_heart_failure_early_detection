@@ -265,8 +265,8 @@ if __name__ == '__main__':
 	labelFile = sys.argv[3]
 	outFile = sys.argv[4]
 
-	inputDimSize = 100 #The number of unique medical codes
-	hiddenDimSize = 100 #The size of the hidden layer of the GRU
+	inputDimSize = 570 #The number of unique medical codes
+	hiddenDimSize = 256 #The size of the hidden layer of the GRU
 	max_epochs = 100 #Maximum epochs to train
 	L2_reg = 0.001 #L2 regularization for the logistic weight
 	batchSize = 10 #The size of the mini-batch
